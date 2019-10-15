@@ -16,7 +16,19 @@
 
 <div id='map'></div>
 <div id='about'>
-<p><a href="http://bit.ly/lebanon-fires">Data</a> collected by <a href="https://twitter.com/majdal">Majd Al-Shihabi</a>, Michelle Moawad, and <a href="https://twitter.com/DouniaSalame">Dounia Salame</a>, from the <a href="https://www.aub.edu.lb/msfea/research/Pages/urban.aspx"> Beirut Urban Lab</a> at the American University of Beirut.</p></div>
+<p><a href="http://bit.ly/lebanon-fires">Data</a> collected by <a href="https://twitter.com/majdal">Majd Al-Shihabi</a>, Michelle Moawad, and <a href="https://twitter.com/DouniaSalame">Dounia Salame</a>, from the <a href="https://www.aub.edu.lb/msfea/research/Pages/urban.aspx"> Beirut Urban Lab</a> at the American University of Beirut.</p>
+<div id='menu'>
+<input id='kamicut/ck1s69dg2591j1cqsxmh0sthm' type='radio' name='rtoggle' value='streets' checked='checked'>
+<label for='streets'>streets</label>
+<input id='kamicut/ck1s8xh035b131dmlilxr2u1e' type='radio' name='rtoggle' value='satellite'>
+<label for='satellite'>satellite</label>
+</div>
+
+<div>
+  Volunteer and help map the affected areas <a href="https://tasks.hotosm.org/project/7014">here.</a>
+</div>
+</div>
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaWN1dCIsImEiOiJMVzF2NThZIn0.WO0ArcIIzYVioen3HpfugQ';
 mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');
@@ -26,6 +38,18 @@ var map = new mapboxgl.Map({
     center: [35.413, 33.834], // starting position [lng, lat]
     zoom: 9 // starting zoom
 });
+
+var layerList = document.getElementById('menu');
+var inputs = layerList.getElementsByTagName('input');
+
+function switchLayer(layer) {
+  var layerId = layer.target.id;
+  map.setStyle('mapbox://styles/' + layerId);
+}
+
+for (var i = 0; i < inputs.length; i++) {
+  inputs[i].onclick = switchLayer;
+}
 </script>
 
 </body>
