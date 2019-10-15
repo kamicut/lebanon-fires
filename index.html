@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Lebanon Incidents</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; font-family: "helvetica"; color: #333}
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #about { position: absolute; padding: 0.5em; top: 0; width: 20%; z-index: 999; background-color: rgba(255, 255, 255,.9); }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<div id='about'>
+  <p>Data collected by American University of Beirut Urban Lab and Majd Al-Shihabi.</p>
+</div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaWN1dCIsImEiOiJMVzF2NThZIn0.WO0ArcIIzYVioen3HpfugQ';
+mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');
+var map = new mapboxgl.Map({
+    container: 'map', // container id
+    style: 'mapbox://styles/kamicut/ck1s69dg2591j1cqsxmh0sthm', // stylesheet location
+    center: [35.413, 33.834], // starting position [lng, lat]
+    zoom: 9 // starting zoom
+});
+</script>
+
+</body>
+</html>

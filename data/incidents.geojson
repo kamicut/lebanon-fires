@@ -1,0 +1,725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "جويّا",
+        "coordinates": "33.2384634,35.3349927",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.2384634,
+        "coordinates y": 35.3349927
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3349927,
+          33.2384634
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "صريفا",
+        "coordinates": "33.2864745,35.3981697",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.2864745,
+        "coordinates y": 35.3981697
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3981697,
+          33.2864745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "دبّية ",
+        "coordinates": "33.6651881,35.4867483",
+        "links": "https://www.facebook.com/380071582387199/videos/1971873886248336/",
+        "field_4": null,
+        "coordinates x": 33.6651881,
+        "coordinates y": 35.4867483
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4867483,
+          33.6651881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "المنصوري",
+        "coordinates": "33.1780385,35.1984658",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.1780385,
+        "coordinates y": 35.1984658
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1984658,
+          33.1780385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "شهابية",
+        "coordinates": "33.2412016,35.3810833",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.2412016,
+        "coordinates y": 35.3810833
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3810833,
+          33.2412016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "شوكين",
+        "coordinates": "33.3510134,35.4405544",
+        "links": "https://www.facebook.com/bintjbeil.org/videos/461266177815279/",
+        "field_4": null,
+        "coordinates x": 33.3510134,
+        "coordinates y": 35.4405544
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4405544,
+          33.3510134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "قانا",
+        "coordinates": "33.2054368,35.2469739",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.2054368,
+        "coordinates y": 35.2469739
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2469739,
+          33.2054368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بافليه",
+        "coordinates": "33.2608491,35.3581606",
+        "links": null,
+        "field_4": "close to qana",
+        "coordinates x": 33.2608491,
+        "coordinates y": 35.3581606
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3581606,
+          33.2608491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "عميق",
+        "coordinates": "33.7127391,35.7628807",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.7127391,
+        "coordinates y": 35.7628807
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7628807,
+          33.7127391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": " برج رحال ",
+        "coordinates": "33.3096503,35.2737161",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.3096503,
+        "coordinates y": 35.2737161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2737161,
+          33.3096503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "تول",
+        "coordinates": "33.3900587,35.4392638",
+        "links": "https://www.facebook.com/bintjbeil.org/videos/450993252189201/",
+        "field_4": null,
+        "coordinates x": 33.3900587,
+        "coordinates y": 35.4392638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4392638,
+          33.3900587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "جنّاتا",
+        "coordinates": "33.2858626,35.3108886",
+        "links": "https://www.facebook.com/bintjbeil.org/videos/430468550939097/",
+        "field_4": null,
+        "coordinates x": 33.2858626,
+        "coordinates y": 35.3108886
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3108886,
+          33.2858626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "باريش",
+        "coordinates": "33.2729166,35.3439969",
+        "links": "https://www.facebook.com/bintjbeil.org/videos/717948472051809/",
+        "field_4": null,
+        "coordinates x": 33.2729166,
+        "coordinates y": 35.3439969
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3439969,
+          33.2729166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "عرقة",
+        "coordinates": "34.5304822,36.0294399",
+        "links": "https://www.facebook.com/106447832755806/posts/2719918338075396/",
+        "field_4": null,
+        "coordinates x": 34.5304822,
+        "coordinates y": 36.0294399
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0294399,
+          34.5304822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "كفون",
+        "coordinates": "34.1552361,35.6966333",
+        "links": "https://www.facebook.com/106447832755806/posts/2719894181411145/",
+        "field_4": null,
+        "coordinates x": 34.1552361,
+        "coordinates y": 35.6966333
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6966333,
+          34.1552361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بنتاعل",
+        "coordinates": "34.1460399,35.6844042",
+        "links": "https://www.facebook.com/106447832755806/posts/2719894181411145/",
+        "field_4": null,
+        "coordinates x": 34.1460399,
+        "coordinates y": 35.6844042
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6844042,
+          34.1460399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "كفرحيم",
+        "coordinates": "33.6876158,35.5121801",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.6876158,
+        "coordinates y": 35.5121801
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5121801,
+          33.6876158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "مشرف",
+        "coordinates": "33.7144112,35.4592731",
+        "links": "https://www.facebook.com/106447832755806/posts/2719544001446163/",
+        "field_4": null,
+        "coordinates x": 33.7144112,
+        "coordinates y": 35.4592731
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4592731,
+          33.7144112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "جدايل",
+        "coordinates": "34.1645625,35.6427719",
+        "links": "https://www.facebook.com/106447832755806/posts/2719531854780711/",
+        "field_4": null,
+        "coordinates x": 34.1645625,
+        "coordinates y": 35.6427719
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6427719,
+          34.1645625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": " كفر دجّال ",
+        "coordinates": "33.3440221,35.4288519",
+        "links": "https://www.facebook.com/106447832755806/posts/2719460318121198/",
+        "field_4": null,
+        "coordinates x": 33.3440221,
+        "coordinates y": 35.4288519
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4288519,
+          33.3440221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "عدشيت",
+        "coordinates": "33.3456922,35.4117048",
+        "links": "https://www.facebook.com/106447832755806/posts/2719460318121198/",
+        "field_4": null,
+        "coordinates x": 33.3456922,
+        "coordinates y": 35.4117048
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4117048,
+          33.3456922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بشامون",
+        "coordinates": "33.7822097,35.5224489",
+        "links": "https://www.facebook.com/106447832755806/posts/2719104288156801/",
+        "field_4": null,
+        "coordinates x": 33.7822097,
+        "coordinates y": 35.5224489
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5224489,
+          33.7822097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "مزرعة يشوع",
+        "coordinates": "33.929896,35.6271014",
+        "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
+        "field_4": null,
+        "coordinates x": 33.929896,
+        "coordinates y": 35.6271014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6271014,
+          33.929896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "زغرتغرين",
+        "coordinates": "34.3594066,35.9448293",
+        "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
+        "field_4": null,
+        "coordinates x": 34.3594066,
+        "coordinates y": 35.9448293
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.9448293,
+          34.3594066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "زكريت",
+        "coordinates": "33.9383595,35.6215647",
+        "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
+        "field_4": null,
+        "coordinates x": 33.9383595,
+        "coordinates y": 35.6215647
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6215647,
+          33.9383595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بريقع",
+        "coordinates": "33.3426928,35.3825296",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.3426928,
+        "coordinates y": 35.3825296
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3825296,
+          33.3426928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "المنصورية",
+        "coordinates": "33.8577713,35.559679",
+        "links": "https://www.facebook.com/106447832755806/posts/2719036014830295/",
+        "field_4": null,
+        "coordinates x": 33.8577713,
+        "coordinates y": 35.559679
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.559679,
+          33.8577713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "الناعمة",
+        "coordinates": "33.7489549,35.444725",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.7489549,
+        "coordinates y": 35.444725
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.444725,
+          33.7489549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "دقون",
+        "coordinates": "33.7318308,35.5055594",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.7318308,
+        "coordinates y": 35.5055594
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5055594,
+          33.7318308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "يحشوش",
+        "coordinates": "34.0666446,35.7275913",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 34.0666446,
+        "coordinates y": 35.7275913
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7275913,
+          34.0666446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "مزرعة الضهر",
+        "coordinates": "33.5942962,35.5070007",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.5942962,
+        "coordinates y": 35.5070007
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5070007,
+          33.5942962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "الزعرورية",
+        "coordinates": "33.6147385,35.5119882",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.6147385,
+        "coordinates y": 35.5119882
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5119882,
+          33.6147385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "النبطية",
+        "coordinates": "33.3710752,35.4826661",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.3710752,
+        "coordinates y": 35.4826661
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4826661,
+          33.3710752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بعاصير",
+        "coordinates": "33.6584811,35.4409109",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.6584811,
+        "coordinates y": 35.4409109
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4409109,
+          33.6584811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "جبل النفيسة - عكار",
+        "coordinates": "34.5477336,36.0781101",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 34.5477336,
+        "coordinates y": 36.0781101
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0781101,
+          34.5477336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "كفرمتى",
+        "coordinates": "33.7293811,35.527534",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.7293811,
+        "coordinates y": 35.527534
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.527534,
+          33.7293811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "كروم عرب",
+        "coordinates": "34.554923,36.0845222",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 34.554923,
+        "coordinates y": 36.0845222
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0845222,
+          34.554923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "مشحا - عكار",
+        "coordinates": "34.5408714,36.1071371",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 34.5408714,
+        "coordinates y": 36.1071371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1071371,
+          34.5408714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بعورته",
+        "coordinates": "33.740985,35.4693783",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.740985,
+        "coordinates y": 35.4693783
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4693783,
+          33.740985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "دميت",
+        "coordinates": "33.6943308,35.5071038",
+        "links": null,
+        "field_4": null,
+        "coordinates x": 33.6943308,
+        "coordinates y": 35.5071038
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5071038,
+          33.6943308
+        ]
+      }
+    }
+  ]
+}
