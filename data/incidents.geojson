@@ -1,5 +1,12 @@
 {
   "type": "FeatureCollection",
+  "name": "fires",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
   "features": [
     {
       "type": "Feature",
@@ -8,8 +15,8 @@
         "coordinates": "33.2384634,35.3349927",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.2384634,
-        "coordinates y": 35.3349927
+        "coordinates y": 33.2384634,
+        "coordinates x": 35.3349927
       },
       "geometry": {
         "type": "Point",
@@ -26,8 +33,8 @@
         "coordinates": "33.2864745,35.3981697",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.2864745,
-        "coordinates y": 35.3981697
+        "coordinates y": 33.2864745,
+        "coordinates x": 35.3981697
       },
       "geometry": {
         "type": "Point",
@@ -44,8 +51,8 @@
         "coordinates": "33.6651881,35.4867483",
         "links": "https://www.facebook.com/380071582387199/videos/1971873886248336/",
         "field_4": null,
-        "coordinates x": 33.6651881,
-        "coordinates y": 35.4867483
+        "coordinates y": 33.6651881,
+        "coordinates x": 35.4867483
       },
       "geometry": {
         "type": "Point",
@@ -62,8 +69,8 @@
         "coordinates": "33.1780385,35.1984658",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.1780385,
-        "coordinates y": 35.1984658
+        "coordinates y": 33.1780385,
+        "coordinates x": 35.1984658
       },
       "geometry": {
         "type": "Point",
@@ -80,8 +87,8 @@
         "coordinates": "33.2412016,35.3810833",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.2412016,
-        "coordinates y": 35.3810833
+        "coordinates y": 33.2412016,
+        "coordinates x": 35.3810833
       },
       "geometry": {
         "type": "Point",
@@ -98,8 +105,8 @@
         "coordinates": "33.3510134,35.4405544",
         "links": "https://www.facebook.com/bintjbeil.org/videos/461266177815279/",
         "field_4": null,
-        "coordinates x": 33.3510134,
-        "coordinates y": 35.4405544
+        "coordinates y": 33.3510134,
+        "coordinates x": 35.4405544
       },
       "geometry": {
         "type": "Point",
@@ -116,8 +123,8 @@
         "coordinates": "33.2054368,35.2469739",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.2054368,
-        "coordinates y": 35.2469739
+        "coordinates y": 33.2054368,
+        "coordinates x": 35.2469739
       },
       "geometry": {
         "type": "Point",
@@ -134,8 +141,8 @@
         "coordinates": "33.2608491,35.3581606",
         "links": null,
         "field_4": "close to qana",
-        "coordinates x": 33.2608491,
-        "coordinates y": 35.3581606
+        "coordinates y": 33.2608491,
+        "coordinates x": 35.3581606
       },
       "geometry": {
         "type": "Point",
@@ -152,8 +159,8 @@
         "coordinates": "33.7127391,35.7628807",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.7127391,
-        "coordinates y": 35.7628807
+        "coordinates y": 33.7127391,
+        "coordinates x": 35.7628807
       },
       "geometry": {
         "type": "Point",
@@ -170,8 +177,8 @@
         "coordinates": "33.3096503,35.2737161",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.3096503,
-        "coordinates y": 35.2737161
+        "coordinates y": 33.3096503,
+        "coordinates x": 35.2737161
       },
       "geometry": {
         "type": "Point",
@@ -188,8 +195,8 @@
         "coordinates": "33.3900587,35.4392638",
         "links": "https://www.facebook.com/bintjbeil.org/videos/450993252189201/",
         "field_4": null,
-        "coordinates x": 33.3900587,
-        "coordinates y": 35.4392638
+        "coordinates y": 33.3900587,
+        "coordinates x": 35.4392638
       },
       "geometry": {
         "type": "Point",
@@ -206,8 +213,8 @@
         "coordinates": "33.2858626,35.3108886",
         "links": "https://www.facebook.com/bintjbeil.org/videos/430468550939097/",
         "field_4": null,
-        "coordinates x": 33.2858626,
-        "coordinates y": 35.3108886
+        "coordinates y": 33.2858626,
+        "coordinates x": 35.3108886
       },
       "geometry": {
         "type": "Point",
@@ -224,8 +231,8 @@
         "coordinates": "33.2729166,35.3439969",
         "links": "https://www.facebook.com/bintjbeil.org/videos/717948472051809/",
         "field_4": null,
-        "coordinates x": 33.2729166,
-        "coordinates y": 35.3439969
+        "coordinates y": 33.2729166,
+        "coordinates x": 35.3439969
       },
       "geometry": {
         "type": "Point",
@@ -242,8 +249,8 @@
         "coordinates": "34.5304822,36.0294399",
         "links": "https://www.facebook.com/106447832755806/posts/2719918338075396/",
         "field_4": null,
-        "coordinates x": 34.5304822,
-        "coordinates y": 36.0294399
+        "coordinates y": 34.5304822,
+        "coordinates x": 36.0294399
       },
       "geometry": {
         "type": "Point",
@@ -260,8 +267,8 @@
         "coordinates": "34.1552361,35.6966333",
         "links": "https://www.facebook.com/106447832755806/posts/2719894181411145/",
         "field_4": null,
-        "coordinates x": 34.1552361,
-        "coordinates y": 35.6966333
+        "coordinates y": 34.1552361,
+        "coordinates x": 35.6966333
       },
       "geometry": {
         "type": "Point",
@@ -278,8 +285,8 @@
         "coordinates": "34.1460399,35.6844042",
         "links": "https://www.facebook.com/106447832755806/posts/2719894181411145/",
         "field_4": null,
-        "coordinates x": 34.1460399,
-        "coordinates y": 35.6844042
+        "coordinates y": 34.1460399,
+        "coordinates x": 35.6844042
       },
       "geometry": {
         "type": "Point",
@@ -296,8 +303,8 @@
         "coordinates": "33.6876158,35.5121801",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.6876158,
-        "coordinates y": 35.5121801
+        "coordinates y": 33.6876158,
+        "coordinates x": 35.5121801
       },
       "geometry": {
         "type": "Point",
@@ -314,8 +321,8 @@
         "coordinates": "33.7144112,35.4592731",
         "links": "https://www.facebook.com/106447832755806/posts/2719544001446163/",
         "field_4": null,
-        "coordinates x": 33.7144112,
-        "coordinates y": 35.4592731
+        "coordinates y": 33.7144112,
+        "coordinates x": 35.4592731
       },
       "geometry": {
         "type": "Point",
@@ -332,8 +339,8 @@
         "coordinates": "34.1645625,35.6427719",
         "links": "https://www.facebook.com/106447832755806/posts/2719531854780711/",
         "field_4": null,
-        "coordinates x": 34.1645625,
-        "coordinates y": 35.6427719
+        "coordinates y": 34.1645625,
+        "coordinates x": 35.6427719
       },
       "geometry": {
         "type": "Point",
@@ -350,8 +357,8 @@
         "coordinates": "33.3440221,35.4288519",
         "links": "https://www.facebook.com/106447832755806/posts/2719460318121198/",
         "field_4": null,
-        "coordinates x": 33.3440221,
-        "coordinates y": 35.4288519
+        "coordinates y": 33.3440221,
+        "coordinates x": 35.4288519
       },
       "geometry": {
         "type": "Point",
@@ -368,8 +375,8 @@
         "coordinates": "33.3456922,35.4117048",
         "links": "https://www.facebook.com/106447832755806/posts/2719460318121198/",
         "field_4": null,
-        "coordinates x": 33.3456922,
-        "coordinates y": 35.4117048
+        "coordinates y": 33.3456922,
+        "coordinates x": 35.4117048
       },
       "geometry": {
         "type": "Point",
@@ -386,8 +393,8 @@
         "coordinates": "33.7822097,35.5224489",
         "links": "https://www.facebook.com/106447832755806/posts/2719104288156801/",
         "field_4": null,
-        "coordinates x": 33.7822097,
-        "coordinates y": 35.5224489
+        "coordinates y": 33.7822097,
+        "coordinates x": 35.5224489
       },
       "geometry": {
         "type": "Point",
@@ -404,8 +411,8 @@
         "coordinates": "33.929896,35.6271014",
         "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
         "field_4": null,
-        "coordinates x": 33.929896,
-        "coordinates y": 35.6271014
+        "coordinates y": 33.929896,
+        "coordinates x": 35.6271014
       },
       "geometry": {
         "type": "Point",
@@ -422,8 +429,8 @@
         "coordinates": "34.3594066,35.9448293",
         "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
         "field_4": null,
-        "coordinates x": 34.3594066,
-        "coordinates y": 35.9448293
+        "coordinates y": 34.3594066,
+        "coordinates x": 35.9448293
       },
       "geometry": {
         "type": "Point",
@@ -440,8 +447,8 @@
         "coordinates": "33.9383595,35.6215647",
         "links": "https://www.facebook.com/106447832755806/posts/2719088751491688/",
         "field_4": null,
-        "coordinates x": 33.9383595,
-        "coordinates y": 35.6215647
+        "coordinates y": 33.9383595,
+        "coordinates x": 35.6215647
       },
       "geometry": {
         "type": "Point",
@@ -458,8 +465,8 @@
         "coordinates": "33.3426928,35.3825296",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.3426928,
-        "coordinates y": 35.3825296
+        "coordinates y": 33.3426928,
+        "coordinates x": 35.3825296
       },
       "geometry": {
         "type": "Point",
@@ -476,8 +483,8 @@
         "coordinates": "33.8577713,35.559679",
         "links": "https://www.facebook.com/106447832755806/posts/2719036014830295/",
         "field_4": null,
-        "coordinates x": 33.8577713,
-        "coordinates y": 35.559679
+        "coordinates y": 33.8577713,
+        "coordinates x": 35.559679
       },
       "geometry": {
         "type": "Point",
@@ -494,8 +501,8 @@
         "coordinates": "33.7489549,35.444725",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.7489549,
-        "coordinates y": 35.444725
+        "coordinates y": 33.7489549,
+        "coordinates x": 35.444725
       },
       "geometry": {
         "type": "Point",
@@ -512,8 +519,8 @@
         "coordinates": "33.7318308,35.5055594",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.7318308,
-        "coordinates y": 35.5055594
+        "coordinates y": 33.7318308,
+        "coordinates x": 35.5055594
       },
       "geometry": {
         "type": "Point",
@@ -530,8 +537,8 @@
         "coordinates": "34.0666446,35.7275913",
         "links": null,
         "field_4": null,
-        "coordinates x": 34.0666446,
-        "coordinates y": 35.7275913
+        "coordinates y": 34.0666446,
+        "coordinates x": 35.7275913
       },
       "geometry": {
         "type": "Point",
@@ -548,8 +555,8 @@
         "coordinates": "33.5942962,35.5070007",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.5942962,
-        "coordinates y": 35.5070007
+        "coordinates y": 33.5942962,
+        "coordinates x": 35.5070007
       },
       "geometry": {
         "type": "Point",
@@ -566,8 +573,8 @@
         "coordinates": "33.6147385,35.5119882",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.6147385,
-        "coordinates y": 35.5119882
+        "coordinates y": 33.6147385,
+        "coordinates x": 35.5119882
       },
       "geometry": {
         "type": "Point",
@@ -584,8 +591,8 @@
         "coordinates": "33.3710752,35.4826661",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.3710752,
-        "coordinates y": 35.4826661
+        "coordinates y": 33.3710752,
+        "coordinates x": 35.4826661
       },
       "geometry": {
         "type": "Point",
@@ -602,8 +609,8 @@
         "coordinates": "33.6584811,35.4409109",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.6584811,
-        "coordinates y": 35.4409109
+        "coordinates y": 33.6584811,
+        "coordinates x": 35.4409109
       },
       "geometry": {
         "type": "Point",
@@ -620,8 +627,8 @@
         "coordinates": "34.5477336,36.0781101",
         "links": null,
         "field_4": null,
-        "coordinates x": 34.5477336,
-        "coordinates y": 36.0781101
+        "coordinates y": 34.5477336,
+        "coordinates x": 36.0781101
       },
       "geometry": {
         "type": "Point",
@@ -638,8 +645,8 @@
         "coordinates": "33.7293811,35.527534",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.7293811,
-        "coordinates y": 35.527534
+        "coordinates y": 33.7293811,
+        "coordinates x": 35.527534
       },
       "geometry": {
         "type": "Point",
@@ -656,8 +663,8 @@
         "coordinates": "34.554923,36.0845222",
         "links": null,
         "field_4": null,
-        "coordinates x": 34.554923,
-        "coordinates y": 36.0845222
+        "coordinates y": 34.554923,
+        "coordinates x": 36.0845222
       },
       "geometry": {
         "type": "Point",
@@ -674,8 +681,8 @@
         "coordinates": "34.5408714,36.1071371",
         "links": null,
         "field_4": null,
-        "coordinates x": 34.5408714,
-        "coordinates y": 36.1071371
+        "coordinates y": 34.5408714,
+        "coordinates x": 36.1071371
       },
       "geometry": {
         "type": "Point",
@@ -692,8 +699,8 @@
         "coordinates": "33.740985,35.4693783",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.740985,
-        "coordinates y": 35.4693783
+        "coordinates y": 33.740985,
+        "coordinates x": 35.4693783
       },
       "geometry": {
         "type": "Point",
@@ -710,8 +717,8 @@
         "coordinates": "33.6943308,35.5071038",
         "links": null,
         "field_4": null,
-        "coordinates x": 33.6943308,
-        "coordinates y": 35.5071038
+        "coordinates y": 33.6943308,
+        "coordinates x": 35.5071038
       },
       "geometry": {
         "type": "Point",
@@ -720,6 +727,96 @@
           33.6943308
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "غزير",
+        "coordinates": "34.0233246,35.665198",
+        "links": "https://www.lbcgroup.tv/news/lebanon-security/476027/Lebanon-news-lbci/ar",
+        "field_4": null,
+        "coordinates y": 34.0233246,
+        "coordinates x": 35.665198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.665198,
+          34.0233246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "برقايل / مجدلا",
+        "coordinates": "34.4861268,36.034249",
+        "links": "https://www.lbcgroup.tv/news/lebanon-security/475948/Lebanon-news-lbci/ar",
+        "field_4": null,
+        "coordinates y": 34.4861268,
+        "coordinates x": 36.034249
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.034249,
+          34.4861268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "الدامور",
+        "coordinates": "33.732363, 35.460306",
+        "links": "https://www.facebook.com/arcenciel.org/",
+        "field_4": null,
+        "coordinates y": 33.732363,
+        "coordinates x": 35.460306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.460306,
+          33.732363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "حمانا",
+        "coordinates": "33.8252825,35.7321982",
+        "links": null,
+        "field_4": null,
+        "coordinates y": null,
+        "coordinates x": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "خرايب",
+        "coordinates": "33.343647,35.2938446",
+        "links": "https://www.imlebanon.org/2019/10/15/bentael-khrab1/",
+        "field_4": null,
+        "coordinates y": null,
+        "coordinates x": null
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "place name": "بخعدون",
+        "coordinates": "34.4090402,36.0126555",
+        "links": null,
+        "field_4": null,
+        "coordinates y": null,
+        "coordinates x": null
+      },
+      "geometry": null
     }
   ]
 }
