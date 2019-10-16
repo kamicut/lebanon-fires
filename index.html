@@ -52,12 +52,17 @@ and (max-device-width : 480px) {
     <div id="hide">[hide]</div>
     <h1>Lebanon Wildfires</h1>
     <div id="menubox">
-    <p><a href="http://bit.ly/lebanon-fires">Data</a> collected by <a href="https://twitter.com/majdal">Majd Al-Shihabi</a>, Michelle Moawad, and <a href="https://twitter.com/DouniaSalame">Dounia Salame</a>, from the <a href="https://www.aub.edu.lb/msfea/research/Pages/urban.aspx"> Beirut Urban Lab</a> at the American University of Beirut.</p>
+      <p><a href="http://bit.ly/lebanon-fires">Incident data</a> collected by <a href="https://twitter.com/majdal">Majd Al-Shihabi</a>, Michelle Moawad, and <a href="https://twitter.com/DouniaSalame">Dounia Salame</a>, from the <a href="https://www.aub.edu.lb/msfea/research/Pages/urban.aspx"> Beirut Urban Lab</a> at the American University of Beirut. NASA heatmap from MODIS/VIIRS <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms/active-fire-data">Active Fire Data</a></p>
+
     <div id='menu'>
       <input id='kamicut/ck1s69dg2591j1cqsxmh0sthm' type='radio' name='rtoggle' value='streets' checked='checked'>
       <label for='streets'>streets</label>
       <input id='kamicut/ck1s8xh035b131dmlilxr2u1e' type='radio' name='rtoggle' value='satellite'>
       <label for='satellite'>satellite</label>
+    </div>
+
+    <div id='sat'>
+      <input id='sat_fires' type="checkbox">Display NASA fire detections</input>
     </div>
 
     <div style="margin-top:2em;">
@@ -85,6 +90,32 @@ and (max-device-width : 480px) {
       )
     }
 
+    function addSatLayer(map) {
+      map.addLayer({
+        'id': 'sat_incidents',
+        'type': 'heatmap',
+        'source': {
+          type: 'geojson',
+          data: 'data/sat_fires.geojson'
+        },
+        "paint": {
+          "heatmap-color": [
+            "interpolate",
+            ["linear"],
+            ["heatmap-density"],
+            0,
+            "hsla(27, 100%, 50%, 0)",
+            0.5,
+            "hsl(35, 100%, 50%)",
+            1,
+            "red"
+          ]
+        },
+        
+      })
+      map.setLayoutProperty('sat_incidents', 'visibility', 'none')
+    }
+
     function forEachLayer(map, text, cb) {
       map.getStyle().layers.forEach((layer) => {
         if (!layer.id.includes(text)) return;
@@ -98,6 +129,7 @@ and (max-device-width : 480px) {
       const savedSources = {};
       const layerGroups = [
         'geo_incidents',
+        'sat_incidents',
       ];
 
       layerGroups.forEach((layerGroup) => {
@@ -131,6 +163,7 @@ and (max-device-width : 480px) {
     });
 
     map.on('load', function () {
+      addSatLayer(map)
       addFireLayer(map)
     })
 
@@ -155,6 +188,15 @@ and (max-device-width : 480px) {
       menubox.style = menuBoxShow ? "" : "display: none"
       hideButton.innerHTML = menuBoxShow ? "[hide]" : "[show]"
     }
+
+    // NASA checkbox
+    var nasaCheckbox = document.querySelector('#sat_fires')
+    nasaCheckbox.onclick = function (e) {
+      var isChecked = nasaCheckbox.checked == true;
+      map.setLayoutProperty('sat_incidents', 'visibility', isChecked ? 'visible' : 'none')
+    }
+
+    // 
   </script>
 
 </body>
