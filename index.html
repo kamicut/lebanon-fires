@@ -34,6 +34,7 @@ body { margin:0; padding:0; font-family: "helvetica"; color: #333; line-height:1
 #map { position:absolute; top:0; bottom:0; width:100%; }
 #about { position: absolute; padding: 0.5em; top: 0; width: 20%; z-index: 999; background-color: rgba(255, 255, 255,.9); }
 h1 { font-size: 2em; } 
+#hide { font-size: 10px; cursor: pointer; margin-right: 0; margin-left: auto; width: 30px;}
 
 @media only screen 
 and (min-device-width : 320px) 
@@ -48,7 +49,9 @@ and (max-device-width : 480px) {
 
   <div id='map'></div>
   <div id='about'>
+    <div id="hide">[hide]</div>
     <h1>Lebanon Wildfires</h1>
+    <div id="menubox">
     <p><a href="http://bit.ly/lebanon-fires">Data</a> collected by <a href="https://twitter.com/majdal">Majd Al-Shihabi</a>, Michelle Moawad, and <a href="https://twitter.com/DouniaSalame">Dounia Salame</a>, from the <a href="https://www.aub.edu.lb/msfea/research/Pages/urban.aspx"> Beirut Urban Lab</a> at the American University of Beirut.</p>
     <div id='menu'>
       <input id='kamicut/ck1s69dg2591j1cqsxmh0sthm' type='radio' name='rtoggle' value='streets' checked='checked'>
@@ -64,6 +67,7 @@ and (max-device-width : 480px) {
 
       <div><a href="https://github.com/kamicut/lebanon-fires">Download code and data 💻</a></div>
     </div>
+    <div>
   </div>
 
   <script>
@@ -86,6 +90,16 @@ and (max-device-width : 480px) {
 
     for (var i = 0; i < inputs.length; i++) {
       inputs[i].onclick = switchLayer;
+    }
+
+    // hide button
+    var hideButton = document.querySelector('#hide')
+    var menubox = document.querySelector('#menubox')
+    var menuBoxShow = true
+    hideButton.onclick = function (e) {
+      menuBoxShow = !menuBoxShow
+      menubox.style = menuBoxShow ? "" : "display: none"
+      hideButton.innerHTML = menuBoxShow ? "[hide]" : "[show]"
     }
   </script>
 
