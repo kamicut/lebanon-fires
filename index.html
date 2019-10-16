@@ -71,17 +71,7 @@ and (max-device-width : 480px) {
   </div>
 
   <script>
-    mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaWN1dCIsImEiOiJMVzF2NThZIn0.WO0ArcIIzYVioen3HpfugQ';
-    mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');
-    var map = new mapboxgl.Map({
-      container: 'map', // container id
-      style: 'kamicut/ck1s69dg2591j1cqsxmh0sthm', // stylesheet location
-      center: [35.413, 33.834], // starting position [lng, lat]
-      zoom: 9 // starting zoom
-    });
-
-    map.on('load', function () {
-
+    function addFireLayer(map) {
       map.addLayer({
         id: 'incidents',
         type: "symbol",
@@ -93,6 +83,19 @@ and (max-device-width : 480px) {
       "paint":{"text-color":"hsl(0, 100%, 79%)","text-halo-color":"hsl(0, 100%, 0%)","text-halo-width":1}
       },
       )
+    }
+
+    mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaWN1dCIsImEiOiJMVzF2NThZIn0.WO0ArcIIzYVioen3HpfugQ';
+    mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');
+    var map = new mapboxgl.Map({
+      container: 'map', // container id
+      style: 'mapbox://kamicut/ck1s69dg2591j1cqsxmh0sthm', // stylesheet location
+      center: [35.413, 33.834], // starting position [lng, lat]
+      zoom: 9 // starting zoom
+    });
+
+    map.on('load', function () {
+      addFireLayer(map)
     })
 
     var layerList = document.getElementById('menu');
@@ -101,6 +104,7 @@ and (max-device-width : 480px) {
     function switchLayer(layer) {
       var layerId = layer.target.id;
       map.setStyle('mapbox://styles/' + layerId);
+      addFireLayer(map)
     }
 
     for (var i = 0; i < inputs.length; i++) {
