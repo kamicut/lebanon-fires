@@ -73,7 +73,7 @@ and (max-device-width : 480px) {
   <script>
     function addFireLayer(map) {
       map.addLayer({
-        id: 'incidents',
+        id: 'geo_incidents',
         type: "symbol",
         source: {
         "type": "geojson",
@@ -85,11 +85,47 @@ and (max-device-width : 480px) {
       )
     }
 
+    function forEachLayer(map, text, cb) {
+      map.getStyle().layers.forEach((layer) => {
+        if (!layer.id.includes(text)) return;
+
+        cb(layer);
+      });
+    }
+    // Changing the map base style
+    function changeStyle(map, style) {
+      const savedLayers = [];
+      const savedSources = {};
+      const layerGroups = [
+        'geo_incidents',
+      ];
+
+      layerGroups.forEach((layerGroup) => {
+        forEachLayer(map, layerGroup, (layer) => {
+          savedSources[layer.source] = map.getSource(layer.source).serialize();
+          savedLayers.push(layer);
+        });
+      });
+
+      map.setStyle(`mapbox://styles/${style}`);
+
+
+      setTimeout(() => {
+        Object.entries(savedSources).forEach(([id, source]) => {
+          map.addSource(id, source);
+        });
+
+        savedLayers.forEach((layer) => {
+          map.addLayer(layer);
+        });
+      }, 1000);
+    }
+
     mapboxgl.accessToken = 'pk.eyJ1Ijoia2FtaWN1dCIsImEiOiJMVzF2NThZIn0.WO0ArcIIzYVioen3HpfugQ';
     mapboxgl.setRTLTextPlugin('https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.2.3/mapbox-gl-rtl-text.js');
     var map = new mapboxgl.Map({
       container: 'map', // container id
-      style: 'mapbox://kamicut/ck1s69dg2591j1cqsxmh0sthm', // stylesheet location
+      style: 'mapbox://styles/kamicut/ck1s69dg2591j1cqsxmh0sthm', // stylesheet location
       center: [35.413, 33.834], // starting position [lng, lat]
       zoom: 9 // starting zoom
     });
@@ -103,8 +139,7 @@ and (max-device-width : 480px) {
 
     function switchLayer(layer) {
       var layerId = layer.target.id;
-      map.setStyle('mapbox://styles/' + layerId);
-      addFireLayer(map)
+      changeStyle(map, layerId)
     }
 
     for (var i = 0; i < inputs.length; i++) {
